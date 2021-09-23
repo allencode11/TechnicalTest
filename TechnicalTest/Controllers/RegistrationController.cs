@@ -29,5 +29,12 @@ namespace TechnicalTest.Controllers
 
             return Summaries;
         }
+
+        [HttpPost]
+        public IEnumerable<string> AddRegistration()
+        {
+
+            return Summaries;
+        }
     }
 }

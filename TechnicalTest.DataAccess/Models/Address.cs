@@ -5,6 +5,7 @@ namespace TechnicalTest.DataAccess.Models
 {
     public class Address
     {
+        [Key]
         [MaxLength(150)]
         [MinLength(1)]
         [Required]

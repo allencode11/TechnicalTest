@@ -29,7 +29,7 @@ namespace TechnicalTest
         public void ConfigureServices(IServiceCollection services)
         {
 
-            var connection = "Server=DESKTOP-VCKTQPC;Database=TechnicalTest;user id=sa;password=password;";
+            var connection = "Server=DESKTOP-VCKTQPC;Database=TechnicalTest;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connection));
 
             services.AddControllers();

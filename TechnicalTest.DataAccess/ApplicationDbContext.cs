@@ -13,5 +13,7 @@ namespace TechnicalTest.DataAccess
         DbSet<Address> Addresses { set; get; }
         DbSet<Organization> Organizations { set; get; }
         DbSet<Person> Persons { set; get; }
+        DbSet<GetRegistrationResponse> getRegistrationResponses { set; get; }
+        DbSet<RegistrationResponse> registrationResponses { set; get; }
     }
 }

@@ -8,6 +8,7 @@ namespace TechnicalTest.DataAccess.Models
         [Required]
         public Address Address { get; set; }
 
+        [Key]
         [Required]
         [MinLength(1)]
         [MaxLength(120)]
