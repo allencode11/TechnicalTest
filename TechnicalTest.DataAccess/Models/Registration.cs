@@ -3,10 +3,10 @@ using TechnicalTest.DataAccess.Models;
 
 namespace TechnicalTest.DataAccess.Models
 {
-    public class GetRegistrationResponse
+    public class Registration
     {
         [Key]
-        public string Id { get; set; }
+        public string? Id { get; set; }
         public string Locale { get; set; }
         public Organization Organization { get; set; }
 

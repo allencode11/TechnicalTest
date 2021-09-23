@@ -3,10 +3,9 @@ using TechnicalTest.DataAccess.Models;
 
 namespace TechnicalTest.Models
 {
-    class RegistrationRequest
+    public class RegistrationRequest
     {
-        public string locale { get; set; }
-
+        public string Locale { get; set; }
         public Organization Organization { get; set; }
 
         [Required]

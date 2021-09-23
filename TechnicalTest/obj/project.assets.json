@@ -1674,6 +1674,22 @@
         "runtime": {
           "bin/placeholder/TechnicalTest.DataAccess.dll": {}
         }
+      },
+      "TechnicalTest.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10",
+          "Microsoft.EntityFrameworkCore.Sqlite.Core": "5.0.10",
+          "TechnicalTest.DataAccess": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TechnicalTest.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TechnicalTest.Models.dll": {}
+        }
       }
     }
   },
@@ -6161,6 +6177,11 @@
       "type": "project",
       "path": "../TechnicalTest.DataAccess/TechnicalTest.DataAccess.csproj",
       "msbuildProject": "../TechnicalTest.DataAccess/TechnicalTest.DataAccess.csproj"
+    },
+    "TechnicalTest.Models/1.0.0": {
+      "type": "project",
+      "path": "../TechnicalTest.Models/TechnicalTest.Models.csproj",
+      "msbuildProject": "../TechnicalTest.Models/TechnicalTest.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6170,7 +6191,8 @@
       "Microsoft.EntityFrameworkCore.Sqlite.Core >= 5.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.10",
       "Swashbuckle.AspNetCore >= 5.6.3",
-      "TechnicalTest.DataAccess >= 1.0.0"
+      "TechnicalTest.DataAccess >= 1.0.0",
+      "TechnicalTest.Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6210,6 +6232,9 @@
           "projectReferences": {
             "C:\\Users\\alele\\source\\repos\\test\\TechnicalTest.DataAccess\\TechnicalTest.DataAccess.csproj": {
               "projectPath": "C:\\Users\\alele\\source\\repos\\test\\TechnicalTest.DataAccess\\TechnicalTest.DataAccess.csproj"
+            },
+            "C:\\Users\\alele\\source\\repos\\test\\TechnicalTest.Models\\TechnicalTest.Models.csproj": {
+              "projectPath": "C:\\Users\\alele\\source\\repos\\test\\TechnicalTest.Models\\TechnicalTest.Models.csproj"
             }
           }
         }

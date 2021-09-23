@@ -1,4 +1,6 @@
 ﻿
+using TechnicalTest.DataAccess.Models;
+
 namespace TechnicalTest.Models
 {
     public class ErrorResponse

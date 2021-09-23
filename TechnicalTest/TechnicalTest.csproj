@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TechnicalTest.DataAccess\TechnicalTest.DataAccess.csproj" />
+    <ProjectReference Include="..\TechnicalTest.Models\TechnicalTest.Models.csproj" />
   </ItemGroup>
 
 </Project>

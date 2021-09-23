@@ -5,15 +5,14 @@ namespace TechnicalTest.DataAccess
 {
     public class ApplicationDbContext : DbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base (options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
                
         }
 
-        DbSet<Address> Addresses { set; get; }
-        DbSet<Organization> Organizations { set; get; }
-        DbSet<Person> Persons { set; get; }
-        DbSet<GetRegistrationResponse> getRegistrationResponses { set; get; }
-        DbSet<RegistrationResponse> registrationResponses { set; get; }
+        public DbSet<Address> Addresses { set; get; }
+        public DbSet<Organization> Organizations { set; get; }
+        public DbSet<Person> Persons { set; get; }
+        public DbSet<Registration> Registrations { set; get; }
     }
 }

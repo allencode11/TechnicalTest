@@ -1,7 +1,7 @@
 ﻿
 using System.ComponentModel.DataAnnotations;
 
-namespace TechnicalTest.DataAccess.Models
+namespace TechnicalTest.Models
 {
     public class RegistrationResponse
     {
