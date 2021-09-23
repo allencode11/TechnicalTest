@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
+using TechnicalTest.DataAccess.Models;
 
 namespace TechnicalTest.DataAccess
 {
@@ -10,5 +10,8 @@ namespace TechnicalTest.DataAccess
                
         }
 
+        DbSet<Address> Addresses { set; get; }
+        DbSet<Organization> Organizations { set; get; }
+        DbSet<Person> Persons { set; get; }
     }
 }
